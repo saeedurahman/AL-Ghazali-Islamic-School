@@ -45,7 +45,7 @@ function Contact() {
         </a>
       
 
-        <p>Feel free tho reach out throufh contact form or find our contact information below. Your feedback,questions and sugggestion are important to us as we strive to provde excptional service to our univertiy community.</p>
+        <p>Feel free tho reach out throufh contact form or find our contact information below. Your feedback,questions and sugggestion are important to us as we strive to provde excptional service to our School community.</p>
         <ul>
             <li> <img src={mail_icon} alt=""/> saeedurahman760@gmail.com</li>
             <li> <img src={phone_icon} alt=""/> +92 3442259592</li>
