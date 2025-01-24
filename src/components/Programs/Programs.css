@@ -1,0 +1,56 @@
+.programs {
+    margin: 50px auto;
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px; 
+}
+
+    .card{
+        box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2);
+        /* transition: 0.3s; */
+        flex-basis: 45%;
+        min-height: 260px;
+        float: left;
+        padding: 10px 10px;
+        background-color:	#c0c0bf;
+        color: hsl(0, 0%, 99%);
+        border-radius: 2em 1em 4em / 0.5em 3em;
+        
+    }
+    .card:hover{
+         box-shadow: 0px 0px 20px 4px #ffbb763f;
+            border: 1px solid rgba(255, 255, 255, 0.454);
+          }
+    
+    .card h3{
+        color: black;
+        text-align: center;
+        padding:0 0 10px 0;
+        text-transform: uppercase;
+        hyphens: auto;
+
+        
+    }
+    .card p{
+        
+        margin-top: 20px;
+        text-align: justify;
+        hyphens: auto;
+        line-height: 1.2;
+        color: black;
+    }
+
+
+/* ---------media Query -----*/
+@media (max-width: 770px) {
+    .programs {
+        grid-template-columns: 1fr; /* ایک کالم موبائل کے لیے */
+    }
+    .card {
+        margin: 20px;
+        height: 240px;
+        padding-top: 20px;
+        
+    }
+}
